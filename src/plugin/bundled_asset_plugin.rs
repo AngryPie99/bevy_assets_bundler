@@ -1,7 +1,8 @@
 use super::BundledAssetIo;
 use crate::AssetBundlingOptions;
 use bevy::{
-    app::{App, Plugin},
+    app::App,
+    prelude::Plugin,
     asset::AssetServer,
 };
 
